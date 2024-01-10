@@ -39,7 +39,7 @@ class VinylController extends BaseController
         $lastQuery= $vinyl->getLastQuery()->getQuery();
        
         echo json_encode($response);
-        print_r($lastQuery);
+      
         
     }
     public function add_vinyl(){
