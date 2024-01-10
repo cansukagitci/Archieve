@@ -15,40 +15,32 @@ class VinylController extends BaseController
         return view('Home/vinylindex.php');
     }
      public function showdata(){
-        $data= $this->model->call_vinyl();
-        echo json_encode($data);
-        /////////////////
-       /* $vinyl=new VinylModel;
-        //define 
+        $vinyl=new VinylModel;
         $searchData=$this->request->getGet("search")["value"];
+      
         $pageinfo=$this->request->getGet("length");
-        $draw=$this->request->getGet("draw");
-        $page_size = 10;
-
-        //define total records
-        $totalRecords=$this->model->select("id")->countAllResults();
-        $totalRecordswithFilter=$vinyl->select("id")->orLike("vinyl_album_name",$searchData)->countAllResults();
-        $total_pages = ceil($totalRecords / $page_size);
-        $page = isset($_GET['page']) ? $_GET['page'] : 1;
-        if ($page < 1 || $page > $total_pages) {
-            $page = 1;
-          }
-         //set offset
-         // $offset = ($page -1) * $page_size;
-         $offset=10;
-        $limit=$page_size;
-        $data = $this->model->call_vinyl($searchData, $limit, $offset);
        
-        
+        $start=$this->request->getGet("start");
+
+        $draw=$this->request->getGet("draw");
+       
+
+        $totalRecords=$this->model->select("id")->countAllResults();
+        $totalRecordswithFilter=$this->model->select("id")->countAllResults();
+
+        $data= $this->model->call_vinyl($searchData, $pageinfo, $start);
         $response=array(
             'draw'=>$draw,
             'totalRecords'=>$totalRecords,
             'iTotalDisplayRecords'=>$totalRecordswithFilter,
             'data'=>$data,
             'token'=>csrf_token()
-        );       
+        );
         $lastQuery= $vinyl->getLastQuery()->getQuery();
-       echo json_encode($response);*/
+       
+        echo json_encode($response);
+        print_r($lastQuery);
+        
     }
     public function add_vinyl(){
         $model=new VinylModel;

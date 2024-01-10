@@ -56,8 +56,7 @@
                 <th>User Score/10</th>
                 <th>My Score/10</th>
                 <th>Release Date</th>
-               <!-- <th>Platform</th>
-                <th>Trailer</th>-->              
+                           
             </tr>
         </thead> 
          
@@ -278,6 +277,9 @@
 }
 
 
+      
+
+
   let table = $('#gametable').DataTable
   ({
     dom: 'Blrftip',
@@ -291,6 +293,7 @@
     rowId: 'id',
     stateSave: true,
     select: true,
+    
     infoCallback: function( settings, start, end, max, total, pre ) {
     var api = this.api();
     var pageInfo = api.page.info();
@@ -298,7 +301,7 @@
     return 'Page '+ (pageInfo.page+1) +' of '+ pageInfo.pages + ' Total Record ' + total;
   },
    
- 
+  
 
     buttons: [
        { 
@@ -343,7 +346,6 @@
    
           
           $('#developerNameUpdate').val(developer).trigger("change");
-          
           
           $('#publisherNameUpdate').val(publisher).trigger("change");
 
@@ -443,6 +445,8 @@ ajax: {
 
 //table.columns( [7,8] ).visible( false );
 ///////////////////
+
+
 const detailRows = [];
  
 table.on('click', 'tbody td.dt-control', function () {

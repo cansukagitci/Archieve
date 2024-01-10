@@ -257,9 +257,16 @@ $(document).ready(function() {
       style: 'multi'
     },
     rowId: 'id',
-    stateSave: false,
+    stateSave: true,
     serverSide:true,
+    paging:true,
     select: true,
+    infoCallback: function( settings, start, end, max, total, pre ) {
+    var api = this.api();
+    var pageInfo = api.page.info();
+ 
+    return 'Page '+ (pageInfo.page+1) +' of '+ pageInfo.pages + ' Total Record ' + total;
+  },
     buttons: [
      
       {
@@ -368,7 +375,7 @@ columns: [
 //show data over table ajax
 ajax: {
   url: "<?= site_url('VinylController/showdata') ?>",
-  dataSrc: ''
+  dataSrc: 'data'
 },
 //for tooltip for coloumns
 rowCallback: function(row, data) {

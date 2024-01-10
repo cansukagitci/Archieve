@@ -23,7 +23,6 @@ class GameController extends BaseController
         $start=$this->request->getGet("start");
         $draw=$this->request->getGet("draw");
         
-
         //define total records
         $totalRecords=$this->model->select("id")->countAllResults();
         $totalRecordswithFilter=$this->model->select("id")->orLike("name",$searchData)->countAllResults();
@@ -38,12 +37,12 @@ class GameController extends BaseController
             'iTotalDisplayRecords'=>$totalRecordswithFilter,
             'data'=>$data,
             'token'=>csrf_token()
-        );       
+        );
+        //GET last query       
         $lastQuery= $game->getLastQuery()->getQuery();
-       // print_r($lastQuery);
+       
        echo json_encode($response); 
-    // print_r($_GET);
-      // return $this->response->setJSON($response);
+   
        
        
  

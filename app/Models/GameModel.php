@@ -28,7 +28,16 @@ public function call_game($searchval,$limit,$offset)
   $builder->select('game.*');
   if (!empty($searchval)) {
   $builder->like('name', $searchval)
-         ->orLike('genre',$searchval);
+         ->orLike('genre',$searchval)
+         ->orLike('platform',$searchval)
+         ->orLike('exclusive',$searchval)
+         ->orLike('metascore',$searchval)
+         ->orLike('userscore',$searchval)
+         ->orLike('genre',$searchval)
+         ->orLike('developer',$searchval)
+         ->orLike('publisher',$searchval)
+         ->orLike('completionstatus',$searchval)
+         ->orLike('releasedate',$searchval);
          
   }
   $builder->limit($limit,$offset);

@@ -26,25 +26,25 @@ public function getVinyl($id = false) {
         return $this->getWhere(['id' => $id]);
     }
   }*/
-public function call_vinyl(/*$searchval,$pageNumber,$offset*/)
+public function call_vinyl($searchval,$limit,$offset)
 {
   $db = \Config\Database::connect();
  // $query = $db->query("SELECT * FROM vinyl"  );
  $builder=$this->db->table("vinyl");
  $builder->select('vinyl.*,vinyllink.linkyoutube,vinyllink.linkspotify');
  $builder->join("vinyllink","vinyl.id=vinyllink.vinyl_id","left");
- /////////////////////
- /*if (!empty($searchval)) {
-  $builder->like('name', $searchval)
-         ->orLike('genre',$searchval)
-         ->groupEnd();
+
+ if (!empty($searchval)) {
+  $builder->like('vinyl_album_name', $searchval)
+         ->orLike('vinyl_artist',$searchval)
+         ->orLike('vinyl_type',$searchval)
+         ->orLike('vinyl_release_date',$searchval)
+         ->orLike('comment',$searchval);
+        
+         
   }
-  $builder->limit($pageNumber,$offset);
-  $results = $builder->get()->getResult();
+  $builder->limit($limit,$offset);
 
-  return $results;
-
-///////////////////////*/
  $results = $builder->get()->getResult();
   /*echo "<pre>";
         print_r($results);*/

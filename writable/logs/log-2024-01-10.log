@@ -1,0 +1,192 @@
+ERROR - 2024-01-10 10:13:54 --> mysqli_sql_exception: Unknown column 'developername' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 10:13:54 --> Unknown column 'developername' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 10:14:14 --> mysqli_sql_exception: Unknown column 'developername' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 10:14:14 --> Unknown column 'developername' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 10:14:21 --> mysqli_sql_exception: Unknown column 'developername' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 10:14:21 --> Unknown column 'developername' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 10:14:23 --> mysqli_sql_exception: Unknown column 'developername' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 10:14:23 --> Unknown column 'developername' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\GameModel.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\GameController.php(30): App\Models\GameModel->call_game()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\GameController->showgamedata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 13:12:49 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\VinylController.php(30): CodeIgniter\Model->countAllResults()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 13:12:49 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH\Controllers\VinylController.php(30): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 13:13:19 --> mysqli_sql_exception: Unknown column 'exclusive' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\VinylModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\VinylController.php(32): App\Models\VinylModel->call_vinyl()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 13:13:19 --> Unknown column 'exclusive' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\VinylModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\VinylController.php(32): App\Models\VinylModel->call_vinyl()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 13:13:25 --> mysqli_sql_exception: Unknown column 'exclusive' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\VinylModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\VinylController.php(32): App\Models\VinylModel->call_vinyl()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 13:13:25 --> Unknown column 'exclusive' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\VinylModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\VinylController.php(32): App\Models\VinylModel->call_vinyl()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
+ERROR - 2024-01-10 13:14:05 --> mysqli_sql_exception: Unknown column 'developer' in 'where clause' in C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Models\VinylModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\app\Controllers\VinylController.php(32): App\Models\VinylModel->call_vinyl()
+#6 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+#7 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\INFODIF\Desktop\GİT\ARCHIVE\system\Commands\Server\rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-01-10 13:14:05 --> Unknown column 'developer' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\VinylModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\VinylController.php(32): App\Models\VinylModel->call_vinyl()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VinylController->showdata()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\INFODIF\\Desktop\\GİT\\ARCHIVE\\public\\index.php')
