@@ -35,26 +35,7 @@
 <!--Datatable -->
 <div class="tablediv">
 <table id="example" class="display" style="width:100%">
-<select id="searchComboBox">
-  <option value="">All</option>
-  <option value="Pop">Pop</option>
-  <option value="Game Soundtrack">Game Soundtrack</option>
-  <option value="Rock">Rock</option>
-  <option value="Country">Country</option>
-  <option value="Rock">Rock</option>
-  <option value="Movie Soundtrack">Movie Soundtrack</option>
-  <option value="Enstrumental">Enstrumental</option>
-  <option value="Classic">Classic</option>
-  <option value="Blues">Blues</option>
-  <option value="Electronic Music">Electronic Music</option>
-  <option value="Jazz">Jazz</option>
-  <option value="Hip Hop">Hip Hop</option>
-  <option value="Rap">Rap</option>
-  <option value="Launge">Launge</option>
-  <option value="R&B">R&B</option>
-  <option value="Reggea">Reggea</option>
-  <option value="Latin">Latin</option>
-</select><br><br>
+
 
         <thead>
        
@@ -399,11 +380,7 @@ table.on('select', function ( e, dt, type, indexes){
 });
 //make unvisible links coloumns
 table.columns( [5,6] ).visible( false );
-//combobox for search with vinyl type
-$('#searchComboBox').on('change', function () {
-  var selectedValue = $(this).val();
-  table.column(2).search(selectedValue).draw();
-});
+
 } );
 //add vinyl ajax
 $(".addbuttonvinyl").click(function(){
